@@ -200,21 +200,21 @@ int main(void)
         }
     }
     printf("================\n");
-    printf("\"AND\" neuron:\n"); //for tåst - changing namå
+    printf("\"AND\" neuron:\n"); //for tÃ¥st - changing namÃ¥
     for(size_t i = 0; i < 2; ++i){
         for(size_t j = 0; j < 2; ++j){
             printf("%zu | %zu = %f\n", i, j, sigmoidf(m.and_w1*i + m.and_w2*j + m.and_b));
         }
     }
     printf("================\n");
-    printf("\"NAND\" neuron:\n"); //for tåst - changing namå
+    printf("\"NAND\" neuron:\n"); //for tÃ¥st - changing namÃ¥
     for(size_t i = 0; i < 2; ++i){
         for(size_t j = 0; j < 2; ++j){
             printf("%zu | %zu = %f\n", i, j, sigmoidf(m.nand_w1*i + m.nand_w2*j + m.nand_b));
         }
     }
     printf("================\n");
-    printf("\"OR\" neuron:\n"); //for tåst - changing namå
+    printf("\"OR\" neuron:\n"); //for tÃ¥st - changing namÃ¥
     for(size_t i = 0; i < 2; ++i){
         for(size_t j = 0; j < 2; ++j){
             printf("%zu | %zu = %f\n", i, j, sigmoidf(m.or_w1*i + m.or_w2*j + m.or_b));
